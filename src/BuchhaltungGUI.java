@@ -162,7 +162,6 @@ public class BuchhaltungGUI {
         dialog.setVisible(true);
     }
 
-
     private void deleteSelectedTransaction() {
         int selectedRow = transactionsTable.getSelectedRow();
         if (selectedRow == -1) {
@@ -189,8 +188,6 @@ public class BuchhaltungGUI {
             }
         }
     }
-
-
 
     private void openAddTransactionDialog() {
         JDialog dialog = new JDialog(frame, "Neue Transaktion", true);
